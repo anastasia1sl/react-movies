@@ -1,0 +1,21 @@
+.homeContainer {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+}
+.title {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-self: center;
+  color: white;
+}
+
+.wrapper {
+  /* background-color: rgba(136, 132, 132, 0.264); */
+  background-color: rgba(152, 147, 144, 0.159);
+  padding: 28px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}

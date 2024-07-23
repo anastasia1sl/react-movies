@@ -1,0 +1,49 @@
+.moviesBox {
+  display: flex;
+}
+
+.movieList {
+  text-decoration: none;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 15px;
+}
+
+.movieItem {
+  font-size: 15px;
+  font-weight: 400;
+  margin-bottom: 5px;
+
+  text-decoration: none;
+}
+
+.movieItemContainer {
+  position: relative;
+}
+
+.posterWrapper {
+  position: relative;
+  display: inline-block;
+}
+.poster {
+  width: 250px;
+  height: 370px;
+  border-radius: 4px;
+}
+
+img:hover {
+  transform: scale(1.02);
+  transition: transform 0.3s ease-in-out;
+}
+
+.rating {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  padding: 2px 5px;
+  border-radius: 3px;
+  font-size: 0.9rem;
+}
